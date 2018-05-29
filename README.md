@@ -26,3 +26,6 @@
   - babel-plugin-react-flow-props-to-prop-types
 - reason
   - reason-react
+- dev-tools
+  - reactotron
+  - react-devtools
