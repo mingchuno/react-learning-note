@@ -12,6 +12,7 @@
   - saga = actor?
 - redux-actions
   - reduce boilerplate on create action
+  - flux-standard-action
 - reselect
   - compute derived data
   - a selector is not recomputed unless one of its arguments changes
