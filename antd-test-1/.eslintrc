@@ -1,0 +1,23 @@
+{
+  "parser": "babel-eslint",
+  "extends": [
+    "react-app",
+    "standard"
+  ],
+  "env": {
+    "browser": true,
+    "es6": true
+  },
+  "parserOptions": {
+    "ecmaVersion": 8
+  },
+  "plugins": [
+    "flowtype"
+  ],
+  "rules": {
+    "space-before-function-paren": [
+      "error",
+      "never"
+    ]
+  }
+}
