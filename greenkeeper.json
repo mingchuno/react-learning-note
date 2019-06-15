@@ -1,0 +1,9 @@
+{
+  "groups": {
+    "default": {
+      "packages": [
+        "antd-test-1/package.json"
+      ]
+    }
+  }
+}
