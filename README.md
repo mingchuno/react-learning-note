@@ -1,5 +1,7 @@
 # React learning note
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/mingchuno/react-learning-note.svg)](https://greenkeeper.io/)
+
 - react
   - component
 - redux (react-redux)
