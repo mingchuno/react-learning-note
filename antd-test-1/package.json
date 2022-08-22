@@ -4,7 +4,9 @@
     "dev": "parcel src/index.html",
     "build": "parcel build src/index.html",
     "lint": "eslint --ext .js src",
-    "precommit": "lint-staged"
+    "precommit": "lint-staged",
+    "prepare": "yarn run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "lint-staged": {
     "*.js": [
@@ -15,8 +17,9 @@
   "dependencies": {
     "antd": "^3.5.4",
     "dva": "^2.1.0",
-    "react": "^16.2.0",
-    "react-dom": "^16.2.0"
+    "react": "^16.5.0",
+    "react-dom": "^16.5.0",
+    "@snyk/protect": "latest"
   },
   "devDependencies": {
     "babel-eslint": "^8.2.3",
@@ -41,5 +44,6 @@
   "engines": {
     "node": ">=8.0.0"
   },
-  "license": "UNLICENSED"
+  "license": "UNLICENSED",
+  "snyk": true
 }
